@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="principale">
+    <ion-title>Projets {{item.bureau}}</ion-title>
+    <ion-buttons end>
+      <button ion-button clear (click)="retour()">Retour</button>
+    </ion-buttons> 
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="page">
+	<img src="{{item.image}}" style="width:100%">
+	<ion-list *ngFor="let pro of projet">
+		<ion-card>
+			<ion-card-header class="head">
+			{{pro[0]}}
+ 			</ion-card-header>
+ 			<ion-card-content>
+				<p class="text" padding>{{pro[1]}}</p>
+  			</ion-card-content>
+		</ion-card>
+	</ion-list>
+</ion-content>

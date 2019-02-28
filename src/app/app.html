@@ -1,0 +1,23 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar color="principale">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="page">
+    <img src="assets/imgs/avatar/Asterios.png">
+    <ion-list >
+      <button menuClose ion-item icon-left *ngFor="let p of pages" (click)="openPage(p)" class="page">
+        <ion-row class="list">
+          <ion-icon name={{p.icon}} class="line"></ion-icon>
+          <div class="lineB">{{p.title}}</div>
+        </ion-row>
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

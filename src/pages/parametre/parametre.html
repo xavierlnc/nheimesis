@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar color="principale">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Paramètres</ion-title>
+    <ion-buttons end>
+    	<button ion-button clear (click)="save()">Enregistrer</button>
+    </ion-buttons> 
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="page">
+	<ion-list>
+  		<h3>L'histoire d'Astérios</h3>
+  		<p padding-left padding-right>Afficher l'histoire d'Astérios à l'ouverture de l'application</p>
+		  <ion-item class="toggle">
+  			<ion-label>{{showSlideText}}</ion-label>
+  			<ion-toggle [(ngModel)]="slide" checked="{{slide}}" (ionChange)="reload()"></ion-toggle>
+		  </ion-item>
+
+		  <br />
+
+      <h3>Achèvements</h3>
+      <ion-list>
+        <div *ngFor="let achiev of achievement" class="achevement">
+          <ion-avatar item-start>
+                <img src={{achiev.image}}>
+          </ion-avatar>
+          <div>
+            <h4>{{achiev.titre}}</h4>
+            <p>{{achiev.description}}</p>
+          </div>
+        </div>
+      </ion-list>
+      <br />
+
+  		<h3>
+    	Reinitialiser les paramètres
+  		</h3>
+    	<button ion-button (click)="presentConfirm()" full round color="danger">Reinitialiser</button>
+
+	</ion-list> 
+
+</ion-content> 

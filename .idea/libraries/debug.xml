@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-11.8.0_26f8d569e16f97a8cbb474854aa1238132c7b286.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.8.0_310a12bb641542dac63fc0e45104766b23e841f2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-11.8.0_266d670925e5c36643907402a883474f923617b3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-11.8.0_bcbe764457032ac30364a84c834ad32f8e040520.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-11.8.0_9a287f8401913e2e9560d715e8ce1d52a124c3f0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-11.8.0_2b270ed4b6d2b7bf44bba760f4504580ddabaa64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-11.8.0_4bba2ebf423846c45172866c1c906b52610a8998.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_0df3d2fd54df5e370e080bfd1a701623be983d95.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-api-11.8.0_5c1bb0b41141f6387b5c3dcc038e690933b104fb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_fa50bf8f3d4d778a33211b315e4b720654b578c9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_66e2fffe8f7f2ec34fad24efbb4e17c80d3b93dd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_ac022014ec85575d428b483109d566ca0d98e372.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-11.8.0_54193223ccc1ab3021c047d881bbea15de772f28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.3.0-debug_d362db9f5a59a661102c1d5a315105efe8883cd5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-11.8.0_13f4ff7a19f900c1c1150e9ac3d89a6fbf841923.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tagmanager-11.8.0_566f45a3fbae77960e891bfdacc8a89f09a8f8dc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.8.0_11ea1fa70cb8663685b9b0e75f59d068457f60f8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/google-services-3.2.0_6f9dc52aea24166ccb97bb5b19da8822f6c78ecc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_78fce6428bfc7bec96079d1076bdabdc7cfc9042.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.8.0_4919c9806a3b7b3235bd2aae5464f564e72a1085.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_e99ccd08e2aff7f8b4d358943a024dbeb3bc8fa1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/debug_15d7e75082cfc5ea471256b8b3f5999ca8092b93.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/me.leolin-ShortcutBadger-1.1.4_3c3b5554ed65974e066be01471ce192b02ba5977.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-11.8.0_2bed91146445032b4871d9f9fd2a0fa3db03e377.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_502efd0f43f43b6fd346099dcbef60c863b3869a.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar color="principale">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Nos Sponsors</ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content class="page">
+	<ion-list *ngFor="let item of sponso">
+		<ion-card>
+			<ion-card-header class="head">
+				{{item.name}}
+			</ion-card-header>
+			<img src="{{item.logo}}">
+		</ion-card>
+	</ion-list>
+</ion-content>

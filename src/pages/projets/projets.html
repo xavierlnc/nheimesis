@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar color="principale">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Nos Projets</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="page">
+
+  <ion-list>
+    <button detail-none ion-item *ngFor="let item of items" (click)="modalPage(item)" class="page">
+          <ion-avatar item-start>
+              <img src={{item.image}}>
+          </ion-avatar>
+      <h2 class="text">{{item.bureau}}</h2>
+      <p class="subtext">Nos projets pour le {{item.bureau}}</p>
+      <button ion-button clear item-end color="principale">Voir</button>
+    </button>
+  </ion-list>
+
+</ion-content>

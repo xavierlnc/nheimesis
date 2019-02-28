@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Rechercher</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="page">
+	<ion-searchbar (ionInput)="getItems($event)" placeholder="Rechercher"></ion-searchbar>
+	<ion-list>
+		<button detail-none ion-item *ngFor="let result of items" (click)=modalPage(result) class="page">
+        	<ion-avatar item-start>
+          		<img src={{result.avatar}}>
+        	</ion-avatar>
+			<h2 class="text">{{result.nom}} {{result.prenom}}</h2>
+			<p class="subtext">{{result.poste}}</p>
+      		<button ion-button clear item-end color="principale">Voir</button>
+		</button> 
+	</ion-list>
+</ion-content>

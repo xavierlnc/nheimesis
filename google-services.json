@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "490262568446",
+    "firebase_url": "https://nheimesis.firebaseio.com",
+    "project_id": "nheimesis",
+    "storage_bucket": "nheimesis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490262568446:android:e31e0f5f3368f8c9",
+        "android_client_info": {
+          "package_name": "com.nheimesis.bde"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490262568446-r9r5la3cb6elv3nh313b3j1c58nmuohj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD25MvaP1nHBfPMjjSlDt_lOojePv9pRlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+page-list {
+
+	h3 {
+    	text-align: center;
+    	color: white;
+    	background-color: #511212;
+    	padding: 10px;
+    	border-radius: 20px;
+    	font-size: 1.2em;
+      font-family: verdana, sans-serif;
+  	}
+
+  	th {
+  		text-align: right;
+      font-size: 1.1em;
+      font-family: verdana, sans-serif;
+  	}
+
+  	td {
+
+  		width: 10%;
+      font-size: 1.1em;
+      font-family: verdana, sans-serif;
+  	}
+  	
+  	h4 {
+  		position: absolute;
+  		top: -5px;
+  		background-color: #ccc9c8;
+  		color: #511212;
+  		padding-right: 10px;
+  		padding-bottom: 3px;
+      font-family: verdana, sans-serif;
+  	}
+
+  	p {
+  		border: 2px solid #511212;
+  		padding: 20px 5px;
+  	}
+
+  	.elm {
+  		position: relative;
+  		text-align: center;
+  		margin-top: 20px;
+  	}
+
+}

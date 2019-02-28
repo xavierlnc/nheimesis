@@ -1,0 +1,33 @@
+page-parametre {
+
+	h3 {
+    	text-align: center;
+    	color: white;
+    	background-color: #511212;
+    	padding: 10px;
+    	border-radius: 20px;
+    	font-size: 1.2em;
+      	font-family: verdana, sans-serif;
+	}
+
+	.toggle {
+		background-color: #ccc9c8;
+	}
+
+	.achevement {
+		display: flex;
+	}
+
+	ion-avatar {
+		width: 20%;
+		margin: 10px;
+	}
+
+	h4 {
+		color: #511212;
+	}
+
+	ion-list-header {
+		border-radius: 20px;
+	}
+}

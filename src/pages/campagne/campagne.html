@@ -1,0 +1,47 @@
+<ion-header>
+
+  <ion-navbar color="principale">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Les Campagnes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content  class="page">
+
+	<ion-card>
+		<ion-card-header class="head">
+			Les évènements
+ 		</ion-card-header>
+		<img src="assets/imgs/calendrier.jpg">
+ 		<ion-card-content>
+    		<p class="core">Ton planning est là ! Ne t'inquiète pas on a prévu de t'occuper !</p>
+  		</ion-card-content>
+  		<button ion-button clear small icon-left class="bouton" (click)="eventClick()">
+  			<ion-row>
+  				<ion-icon name="calendar"></ion-icon>
+  				<div>Voir le planning</div>
+  			</ion-row>
+  		</button>
+	</ion-card>
+
+	<ion-card>
+		<ion-card-header class="head">
+			Les SOS
+ 		</ion-card-header>
+		<img src="assets/imgs/sos/Sos.png">
+ 		<ion-card-content>
+    		<p class="core">Un p'tit creux ? Envie d'un massage ? Tes désirs sont les notres.</p>
+  		</ion-card-content>
+  		<button ion-button clear small icon-left class="bouton" (click)="sosClick()">
+  			<ion-row>
+  				<ion-icon name="walk"></ion-icon>
+  				<div>Voir le planning</div>
+  			</ion-row>
+  		</button>
+	</ion-card>
+
+</ion-content>

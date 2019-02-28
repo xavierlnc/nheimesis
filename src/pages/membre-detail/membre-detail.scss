@@ -1,0 +1,22 @@
+page-membre-detail {
+	 
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    color: white;
+    background-color: #511212;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  p {
+    background-color: #bfbfbf;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: justify;
+  }
+}

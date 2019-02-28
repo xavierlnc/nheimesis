@@ -1,0 +1,63 @@
+<ion-header>
+
+  <ion-navbar color="principale">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Le BDE</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="page">
+
+	<ion-card>
+		<ion-card-header class="head">
+			Les membres
+ 		</ion-card-header>
+		<img src="assets/imgs/equipe.png">
+ 		<ion-card-content>
+    		<p class="core">Les membres du Nheimegang</p>
+  		</ion-card-content>
+  		<button ion-button clear small icon-left class="bouton" (click)="membreClick()">
+  			<ion-row>
+  				<ion-icon name="people"></ion-icon>
+  				<div>Voir les membres</div>
+  			</ion-row>
+  		</button>
+	</ion-card>
+
+  <ion-card>
+    <ion-card-header class="head">
+      Nos projets
+    </ion-card-header>
+    <img src="assets/imgs/projet.jpg">
+    <ion-card-content>
+        <p class="core">Une grande équipe, de grands projets</p>
+      </ion-card-content>
+    <button ion-button small clear icon-left class="bouton" (click)="projetClick()">
+        <ion-row>
+          <ion-icon name="cog"></ion-icon>
+          <div>Voir nos projets</div>
+        </ion-row>
+    </button>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header class="head">
+      Les anecdotes des membres
+    </ion-card-header>
+    <img src="assets/imgs/anecdotes.jpeg">
+    <ion-card-content>
+        <p class="core">Une anecdote, un Nheinhei, sauras-tu les associer ?</p>
+      </ion-card-content>
+    <button ion-button small clear icon-left class="bouton" (click)="anecdotesClick()">
+        <ion-row>
+          <ion-icon name="bookmarks"></ion-icon>
+          <div>Voir les anecdotes</div>
+        </ion-row>
+    </button>
+  </ion-card>
+
+</ion-content>

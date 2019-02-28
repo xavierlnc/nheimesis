@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="principale">
+  	<button ion-button menuToggle>
+  	  <ion-icon name="menu"></ion-icon>
+  	</button>
+    <ion-title>HEI 4</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="page">
+	<ion-list>
+		<button detail-none ion-item *ngFor="let item of items" (click)=modalPage(item) class="page">
+        	<ion-avatar item-start>
+          		<img src={{item.avatar}}>
+        	</ion-avatar> 
+			<h2 class="text">{{item.nom}} {{item.prenom}}</h2>
+			<p class="subtext">{{item.poste}}</p>
+      <button ion-button clear item-end color="principale">Voir</button>
+		</button>
+	</ion-list> 
+
+</ion-content>

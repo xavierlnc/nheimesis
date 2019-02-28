@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar color="principale">
+    <ion-title>{{item.titre}}</ion-title>
+    <ion-buttons end>
+      <button ion-button clear (click)="retour()">Retour</button>
+    </ion-buttons> 
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="page">
+	<img src="{{item.photo}}">
+	<div>
+
+    <ion-list>
+      <ion-list-header class="head">
+        <ion-icon name="calendar" color="white"></ion-icon>
+        {{item.jourJ}} {{item.jourN}} {{item.mois}} à {{item.lieu}}
+        <br/>
+        <ion-icon name="clock" color="white"></ion-icon>
+        {{item.heure}}
+      </ion-list-header>
+        <p padding-left padding-right margin>{{item.texte}}</p>
+      <ion-list-header class="head">
+        <ion-icon name="compass" color="white"></ion-icon>
+        Google Maps
+      </ion-list-header>  
+    </ion-list>
+	</div>
+  <div #map id="map"></div>
+  
+ 
+</ion-content>

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar color="principale"> 
+    <ion-title>Bienvenue !</ion-title>
+    <ion-buttons end>
+      <button ion-button clear (click)="exit()">Passer</button>
+    </ion-buttons> 
+  </ion-navbar>
+</ion-header>
+ 
+
+<ion-content class="page">
+  <video width="{{swidth}}" height="240" controls><source src="https://firebasestorage.googleapis.com/v0/b/nheimesis.appspot.com/o/Web%20version.mp4?alt=media&token=7247e1ed-0c4c-44ab-86df-cde7f820a11f" type=""></video>
+    <div padding>
+      <p><strong>I</strong>l y a plusieurs siècles les dieux ont demandé à Dédale de bâtir un labyrinthe pour y enfermer leur plus grand secret. Un monstre mi-homme mi-bête que certains dénommèrent Astérios.</p>
+      <p><strong>A</strong>fin de réparer cette injustice Nheimesis créa une faille exploitable par le commun des mortels. Une fois dans le labyrinthe deux options s'offrent à eux : s'emparer du trésor en son sein ou mourir sous les griffes de la bête.</p>
+      <p><strong>M</strong>ais si cette année quelque chose était différent ?</p>
+      <ion-item class="checkbox">
+        <ion-label>Ne plus voir cette page au début</ion-label>
+        <ion-checkbox color="dark" (ionChange)="check()" checked={{startCheck}}></ion-checkbox>
+      </ion-item>
+    </div>
+</ion-content>

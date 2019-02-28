@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="principale">
+    <ion-title>{{personne.prenom}} {{personne.nom}}</ion-title>
+    <ion-buttons end>
+      <button ion-button clear (click)="retour()">Retour</button>
+    </ion-buttons> 
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="page">
+	<img src={{personne.photo}}/>
+	<div padding>
+		<h3>{{personne.poste}}</h3>
+		<p padding>{{personne.description}}</p>	
+	</div>
+	<button ion-button *ngIf="isAsterios" block outline color="principale" (click)="easterClick()">
+		Aller dans le caverne d'Asterios
+		<ion-icon name="arrow-forward" padding></ion-icon>
+	</button> 
+</ion-content>
